@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+.env
+
+# Dataset is large and should be downloaded separately.
+aruco-detection-challenge/
+
+# Generated experiment artifacts.
+outputs/*
+!outputs/.gitkeep
+models/cnn_data/
+models/*.pth
+*.npy
+
+# Local editor and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
